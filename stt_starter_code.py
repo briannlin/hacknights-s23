@@ -20,12 +20,12 @@ while True:
 
             # Perform text-to-speech recognition on the audio.
             text = r.recognize_google(audio)
-            print("Google Speech Recognition thinks you said " + text)
+            print("Google Speech Recognition thinks you said: " + text)
 
             # If "quit" is recognized in the audio, quit the program.
             if ("quit" in text):
                 print("Goodbye! ( • ͜ •)7")
-                quit(0);
+                quit(0)
 
     # Catch exceptions and handle them by creating a new instance of the Recognizer interface.
     except sr.UnknownValueError:
