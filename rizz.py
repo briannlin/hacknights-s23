@@ -84,7 +84,7 @@ while True:
                 
 
             
-            print(f"RIZZ POINTS: {rizz_points}/10")
+            print(f"RIZZ POINTS: {rizz_points}/5")
 
             time.sleep(5)
             os.system('CLS')
